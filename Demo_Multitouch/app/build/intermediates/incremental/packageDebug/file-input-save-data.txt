@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Tue Aug 22 10:03:23 EDT 2017
+2.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\folders\\2\\1f\\main
+5.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon.png
+5.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\folders\\2\\1f\\main
+6.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+2.set=JAVA_RESOURCE
+4.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d3eb7704d847df1d79dee8dd7693bddd44db4f41\\classes.dex
+7.set=DEX
+count=8
+0.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_75ccb4fb8841ad4a23b1f728725962ff1d7ad379\\classes.dex
+5.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
+1.set=ANDROID_RESOURCE
+7.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d3eb7704d847df1d79dee8dd7693bddd44db4f41
+2.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\folders\\2\\1f\\main\\ca\\yorku\\eecs\\mack\\demomultitouch\\DemoMultitouch-1.jpg
+6.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_75ccb4fb8841ad4a23b1f728725962ff1d7ad379
+3.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\folders\\2\\1f\\main\\ca\\yorku\\eecs\\mack\\demomultitouch\\DemoMultitouch-2.jpg
+3.set=JAVA_RESOURCE
+1.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Multitouch\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+0.set=DEX
