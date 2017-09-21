@@ -1,0 +1,7 @@
+#Tue Aug 22 10:05:24 EDT 2017
+base.0=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cd95f7c57cf57c40ae380220326fbc134b76c814
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0ba696a1763341892a0d00d3a53aaa7e5cb198f4\\classes.dex
+base.1=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0ba696a1763341892a0d00d3a53aaa7e5cb198f4
+file.0=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_cd95f7c57cf57c40ae380220326fbc134b76c814\\classes.dex
