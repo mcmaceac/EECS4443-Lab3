@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="25"
+    api-level="24"
     build-mode="FULL"
-    density="420dpi"
+    density="xxxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1503596377286"
-    token="5552908442376396341"
+    timestamp="1506012135479"
+    token="-165871398281420546"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1407" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="914" />
     <task
         name="verifier"
-        duration="0" />
+        duration="702" />
 
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\outputs\apk\app-debug.apk"
+        location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1503596377286"
+        timestamp="1506012135479"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\mack\Desktop\Scott-new\Java\AndroidStudioStuff\Demo_Scale\app\build\outputs\apk\app-debug.apk"
+            location="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

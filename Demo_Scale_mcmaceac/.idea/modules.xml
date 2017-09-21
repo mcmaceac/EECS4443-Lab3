@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Demo_Scale.iml" filepath="$PROJECT_DIR$/Demo_Scale.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file:///eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/Demo_Scale_mcmaceac.iml" filepath="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/Demo_Scale_mcmaceac.iml" />
+      <module fileurl="file:///eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/app.iml" filepath="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/app.iml" />
     </modules>
   </component>
 </project>

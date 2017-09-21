@@ -1,23 +1,23 @@
 [
     {
-        "outputFile": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 47,
-                    "endOffset": 98
+                    "endColumn": 56,
+                    "endOffset": 107
                 },
                 "from": {
-                    "file": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
                         "startOffset": 161,
-                        "endColumn": 47,
-                        "endOffset": 204
+                        "endColumn": 56,
+                        "endOffset": 213
                     }
                 }
             },
@@ -25,12 +25,12 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 103,
+                    "startOffset": 112,
                     "endColumn": 104,
-                    "endOffset": 203
+                    "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 208,
+                    "startOffset": 217,
                     "endColumn": 49,
-                    "endOffset": 253
+                    "endOffset": 262
                 },
                 "from": {
-                    "file": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 262,
+                        "startOffset": 271,
                         "endColumn": 49,
-                        "endOffset": 307
+                        "endOffset": 316
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 258,
+                    "startOffset": 267,
                     "endColumn": 52,
-                    "endOffset": 306
+                    "endOffset": 315
                 },
                 "from": {
-                    "file": "C:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 209,
+                        "startOffset": 218,
                         "endColumn": 52,
-                        "endOffset": 257
+                        "endOffset": 266
                     }
                 }
             }

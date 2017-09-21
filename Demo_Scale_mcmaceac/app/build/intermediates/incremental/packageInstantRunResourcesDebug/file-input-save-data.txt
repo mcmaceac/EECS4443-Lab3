@@ -1,21 +1,21 @@
 #Internal package file, do not edit.
-#Tue Aug 22 10:05:06 EDT 2017
-2.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_
-5.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+#Thu Sep 21 12:42:23 EDT 2017
+2.base=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_
+5.file=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/iconandroid.png
 5.set=ANDROID_RESOURCE
-3.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.base=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_
 2.set=ANDROID_RESOURCE
-4.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.base=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_
 count=6
-0.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\varihall.jpg
-5.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_
+0.file=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/icon.png
+5.base=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_
 4.set=ANDROID_RESOURCE
-1.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\icon.png
+1.file=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 1.set=ANDROID_RESOURCE
-2.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml
-0.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_
-3.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+2.file=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+0.base=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_
+3.file=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/varihall.jpg
 3.set=ANDROID_RESOURCE
-1.base=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_
-4.file=C\:\\Users\\mack\\Desktop\\Scott-new\\Java\\AndroidStudioStuff\\Demo_Scale\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\iconandroid.png
+1.base=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_
+4.file=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/res/resources-debug.ap_/resources.arsc
 0.set=ANDROID_RESOURCE
