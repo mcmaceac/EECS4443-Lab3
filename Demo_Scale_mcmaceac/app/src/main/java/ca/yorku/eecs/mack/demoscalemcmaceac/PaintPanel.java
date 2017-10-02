@@ -38,6 +38,7 @@ public class PaintPanel extends View
     private float lastTouchX;
     private float lastTouchY;
     private boolean imageSelected;
+    private boolean doubleTapHasOccured = false;
 
     private ScaleGestureDetector scaleGestureDetector;
     private GestureDetector gestureDetector;
@@ -345,13 +346,15 @@ public class PaintPanel extends View
         @Override
         public boolean onDoubleTap(MotionEvent me) {
 
-            if (scaleFactor >= 2) {
-                scaleFactor /= 2;
+            // Scale up on alternating double clicks
+            if (doubleTapHasOccured) {
+                scaleFactor /= 3;
             }
             else {
-                scaleFactor *= 2;
+                scaleFactor *= 3;
             }
 
+            doubleTapHasOccured = !doubleTapHasOccured;
             Log.i(MYDEBUG, "Double tap detected");
 
             return true;
