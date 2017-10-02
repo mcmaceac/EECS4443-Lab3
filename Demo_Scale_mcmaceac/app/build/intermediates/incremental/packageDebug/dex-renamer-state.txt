@@ -1,7 +1,7 @@
-#Thu Sep 21 12:42:35 EDT 2017
-base.0=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9eb13f1a8842c68e74a78082c17f747b18f2d1f3
+#Fri Sep 22 11:45:06 EDT 2017
+base.0=/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_95a6e53d4359db72cca48daf8b74ec147712b25a
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ca1a8a37e8abf0cd072c28327410dda52b6af24c/classes.dex
-base.1=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ca1a8a37e8abf0cd072c28327410dda52b6af24c
-file.0=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9eb13f1a8842c68e74a78082c17f747b18f2d1f3/classes.dex
+file.1=/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7be4ea356d86dea49c0f68015268474e7671775e/classes.dex
+base.1=/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7be4ea356d86dea49c0f68015268474e7671775e
+file.0=/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_95a6e53d4359db72cca48daf8b74ec147712b25a/classes.dex

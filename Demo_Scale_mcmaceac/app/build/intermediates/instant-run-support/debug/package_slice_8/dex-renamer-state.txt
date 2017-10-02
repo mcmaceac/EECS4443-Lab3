@@ -1,4 +1,4 @@
-#Thu Sep 21 12:42:34 EDT 2017
-base.0=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
+#Mon Oct 02 12:34:02 EDT 2017
+base.0=/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
 renamed.0=classes.dex
-file.0=/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex
+file.0=/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex

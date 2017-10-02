@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9eb13f1a8842c68e74a78082c17f747b18f2d1f3/classes.dex" />
+        <dex dex="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_95a6e53d4359db72cca48daf8b74ec147712b25a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c3d189627879e98305ac452a60d856018f930e50">
-        <dex dex="/eecs/home/mcmaceac/4443/Labs/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ca1a8a37e8abf0cd072c28327410dda52b6af24c/classes.dex" />
+        sha1="de748f8fbb7deb211fb7bbee9afe87f5b4a444a8">
+        <dex dex="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7be4ea356d86dea49c0f68015268474e7671775e/classes.dex" />
     </item>
 
 </items>

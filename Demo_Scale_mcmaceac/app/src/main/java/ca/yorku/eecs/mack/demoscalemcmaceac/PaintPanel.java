@@ -6,6 +6,7 @@ import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.os.CountDownTimer;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
@@ -335,6 +336,25 @@ public class PaintPanel extends View
         {
             // no implementation (handle in onTouchEvent)
             return false;
+        }
+
+        /*
+         * onDoubleTap - This method is executed when a double tap gesture is detected (scaling
+         * only occurs if the double tap is on the image).
+         */
+        @Override
+        public boolean onDoubleTap(MotionEvent me) {
+
+            if (scaleFactor >= 2) {
+                scaleFactor /= 2;
+            }
+            else {
+                scaleFactor *= 2;
+            }
+
+            Log.i(MYDEBUG, "Double tap detected");
+
+            return true;
         }
 
         /*
