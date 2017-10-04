@@ -358,20 +358,21 @@ public class PaintPanel extends View
             RectF r = new RectF(left, top, right, bottom);
             boolean inside = r.contains(x, y);
 
-            float tempWidth;
-            float tempHeight;
+            float tempWidth = imageIntrinsicWidth;
+            float tempHeight = imageIntrinsicHeight;
 
             if (inside) {
                 if (zoomMode) {
                     scaleFactor = 1f;
                     lastScaleFactor = 1f;
+                    tempWidth /= 3;
+                    tempHeight /= 3;
                 } else {
                     scaleFactor = 3f;
                     lastScaleFactor = 3f;
+                    tempHeight *= scaleFactor;
+                    tempWidth *= scaleFactor;
                 }
-
-                tempHeight = imageIntrinsicHeight * scaleFactor;
-                tempWidth = imageIntrinsicWidth * scaleFactor;
 
                 float xOffset = x - xPosition;
                 float yOffset = y - yPosition;
@@ -379,8 +380,10 @@ public class PaintPanel extends View
                 xRatio = xOffset / (imageIntrinsicWidth * scaleFactor);
                 yRatio = yOffset / (imageIntrinsicHeight * scaleFactor);
 
-                xPosition = x - ((tempWidth * scaleFactor) * xRatio);
-                yPosition = y - ((tempHeight * scaleFactor) * yRatio);
+
+                xPosition = x - xRatio * tempWidth * scaleFactor;
+                yPosition = y - yRatio * tempHeight * scaleFactor;
+
 
                 zoomMode = !zoomMode;
                 Log.i(MYDEBUG, "Double tap detected: xRatio: " + xRatio + " yRatio: " + yRatio);

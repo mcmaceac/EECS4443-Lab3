@@ -1,4 +1,4 @@
-#Wed Oct 04 12:30:27 EDT 2017
+#Wed Oct 04 16:33:22 EDT 2017
 base.0=/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_95a6e53d4359db72cca48daf8b74ec147712b25a
 renamed.1=classes.dex
 renamed.0=classes2.dex
