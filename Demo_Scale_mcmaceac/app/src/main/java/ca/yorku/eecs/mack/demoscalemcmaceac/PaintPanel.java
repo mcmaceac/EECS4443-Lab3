@@ -3,6 +3,7 @@ package ca.yorku.eecs.mack.demoscalemcmaceac;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.RectF;
+import android.graphics.PointF;
 import android.graphics.drawable.Drawable;
 import android.os.CountDownTimer;
 import android.util.AttributeSet;
@@ -28,7 +29,7 @@ public class PaintPanel extends View
     private static final int INVALID_POINTER_ID = -1;
     public float xPosition;
     public float yPosition;
-    public float scaleFactor;
+    public float scaleFactor, lastScaleFactor;
     public int imageIntrinsicWidth;
     public int imageIntrinsicHeight;
     StatusPanel sp;
@@ -38,7 +39,7 @@ public class PaintPanel extends View
     private float lastTouchX;
     private float lastTouchY;
     private boolean imageSelected;
-    private boolean doubleTapHasOccured = false;
+    private boolean zoomMode = false;
 
     private ScaleGestureDetector scaleGestureDetector;
     private GestureDetector gestureDetector;
@@ -346,16 +347,47 @@ public class PaintPanel extends View
         @Override
         public boolean onDoubleTap(MotionEvent me) {
 
-            // Scale up on alternating double clicks
-            if (doubleTapHasOccured) {
-                scaleFactor /= 3;
+            final float x = me.getX();
+            final float y = me.getY();
+
+            // determine if the initial touch point is inside the image, !imageSelected not working
+            float left = xPosition;
+            float top = yPosition;
+            float right = left + imageIntrinsicWidth * scaleFactor;
+            float bottom = top + imageIntrinsicHeight * scaleFactor;
+            RectF r = new RectF(left, top, right, bottom);
+            boolean inside = r.contains(x, y);
+
+            float tempWidth;
+            float tempHeight;
+
+            if (inside) {
+                if (zoomMode) {
+                    scaleFactor = 1f;
+                    lastScaleFactor = 1f;
+                } else {
+                    scaleFactor = 3f;
+                    lastScaleFactor = 3f;
+                }
+
+                tempHeight = imageIntrinsicHeight * scaleFactor;
+                tempWidth = imageIntrinsicWidth * scaleFactor;
+
+                float xOffset = x - xPosition;
+                float yOffset = y - yPosition;
+
+                xRatio = xOffset / (imageIntrinsicWidth * scaleFactor);
+                yRatio = yOffset / (imageIntrinsicHeight * scaleFactor);
+
+                xPosition = x - ((tempWidth * scaleFactor) * xRatio);
+                yPosition = y - ((tempHeight * scaleFactor) * yRatio);
+
+                zoomMode = !zoomMode;
+                Log.i(MYDEBUG, "Double tap detected: xRatio: " + xRatio + " yRatio: " + yRatio);
             }
             else {
-                scaleFactor *= 3;
+                Log.i(MYDEBUG, "Double tap outside image");
             }
-
-            doubleTapHasOccured = !doubleTapHasOccured;
-            Log.i(MYDEBUG, "Double tap detected");
 
             return true;
         }

@@ -2,26 +2,26 @@
 <instant-run
     abi="x86"
     api-level="22"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506962485237"
+    timestamp="1507138855753"
     token="632969914477711261"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="201" />
+        duration="1301" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="35" />
+        duration="126" />
     <task
         name="verifier"
-        duration="7" />
+        duration="63" />
 
     <artifact
         location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -29,10 +29,37 @@
     <artifact
         location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1506961387685"
+        timestamp="1507138855753"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -67,25 +94,6 @@
         <artifact
             location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506962450791"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506962485237"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/mcmaceac/Documents/School/EECS4443/lab3/Demo_Scale_mcmaceac/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
