@@ -358,32 +358,31 @@ public class PaintPanel extends View
             RectF r = new RectF(left, top, right, bottom);
             boolean inside = r.contains(x, y);
 
-            float tempWidth = imageIntrinsicWidth;
+            float tempWidth = imageIntrinsicWidth;          //used since width and height aren't updated right away
             float tempHeight = imageIntrinsicHeight;
+
+            if (!imageSelected)
+                Log.i(MYDEBUG, "imageSelected: clicked outside of image");
 
             if (inside) {
                 if (zoomMode) {
-                    scaleFactor = 1f;
-                    lastScaleFactor = 1f;
-                    tempWidth /= 3;
-                    tempHeight /= 3;
-                } else {
-                    scaleFactor = 3f;
-                    lastScaleFactor = 3f;
+                    tempWidth /= scaleFactor;
+                    tempHeight /= scaleFactor;
+                    scaleFactor /= 3;
+                }
+                else {
+                    scaleFactor *= 3;
                     tempHeight *= scaleFactor;
                     tempWidth *= scaleFactor;
                 }
 
                 float xOffset = x - xPosition;
                 float yOffset = y - yPosition;
-
                 xRatio = xOffset / (imageIntrinsicWidth * scaleFactor);
                 yRatio = yOffset / (imageIntrinsicHeight * scaleFactor);
-
-
                 xPosition = x - xRatio * tempWidth * scaleFactor;
                 yPosition = y - yRatio * tempHeight * scaleFactor;
-
+                //animateZoom(x, y);
 
                 zoomMode = !zoomMode;
                 Log.i(MYDEBUG, "Double tap detected: xRatio: " + xRatio + " yRatio: " + yRatio);
@@ -393,6 +392,42 @@ public class PaintPanel extends View
             }
 
             return true;
+        }
+
+        public void animateZoom(float x, float y) {
+
+            float tempWidth = imageIntrinsicWidth;
+            float tempHeight = imageIntrinsicHeight;
+            float tempWidth2 = imageIntrinsicWidth;
+            float tempHeight2 = imageIntrinsicHeight;
+            float originalX = xPosition;
+            float originalY = yPosition;
+
+            float scaleIncrement = 0.1f;
+            float localScale = 1f;
+
+            for (int i = 0; i < 20; i++) {
+                localScale += scaleIncrement;
+                tempHeight = tempHeight2 * localScale;
+                tempWidth = tempWidth2 * localScale;
+
+                float xOffset = x - originalX;
+                float yOffset = y - originalY;
+                xRatio = xOffset / (imageIntrinsicWidth * scaleFactor);
+                yRatio = yOffset / (imageIntrinsicHeight * scaleFactor);
+                xPosition = x - xRatio * tempWidth * scaleFactor;
+                yPosition = y - yRatio * tempHeight * scaleFactor;
+                scaleFactor = localScale;
+                try {
+                    Thread.sleep(100);
+                }
+                catch (Exception e) {
+                    e.printStackTrace();
+                }
+                Log.i("ANIMATE", "localScale: " + localScale + " tempHeight: " + tempHeight + " tempWidth: " + tempWidth
+                    + " scaleIncrement: " + scaleIncrement);
+                invalidate();
+            }
         }
 
         /*
